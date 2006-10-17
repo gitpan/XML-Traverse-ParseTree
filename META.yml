@@ -1,0 +1,26 @@
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         XML-Traverse-ParseTree
+version:      0.01
+version_from: lib/XML/Traverse/ParseTree.pm
+installdirs:  site
+requires:
+    Test::More:                    0.47
+    XML::Parser:                   2.34
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.30
+abstract: access to xml contents by means of iterators and getters
+author: 
+  - Martin Busik <martin.busik@busik.de>
+no_index:
+  dir:
+    - t
+  file:
+    - perltidy_glob.BAT
+    - perltidy.conf
+meta-spec:
+  version: 1.2
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+resources:
+  homepage: http://martin.busik.de 
