@@ -6,4 +6,6 @@ META.yml
 perltidy.conf
 perltidy_glob.BAT
 t/01base.t
-
+t/02dfs.t
+t/03getter.t
+t/04predicates.t
