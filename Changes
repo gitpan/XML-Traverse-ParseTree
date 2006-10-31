@@ -1,5 +1,10 @@
 Revision history for XML::Traverse::ParseTree.
 
+0.03  2006-10-31 Martin Busik <martin.busik@busik.de>
+    - Minor changes: 
+      Results of http://cpants.perl.org/kwalitee/
+      incorporated into the package
+
 0.02  2006-10-20 Martin Busik <martin.busik@busik.de>
     - nearly all methods renamed in order to create
       a consistent interface

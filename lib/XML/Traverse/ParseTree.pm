@@ -4,9 +4,9 @@ use warnings;
 use Carp;
 
 #
-#   $Id: ParseTree.pm,v 1.4 2006/10/20 15:17:37 martin Exp $
+#   $Id: ParseTree.pm,v 1.6 2006/10/31 17:10:04 martin Exp $
 #
-our $VERSION = "0.02";
+our $VERSION = "0.03";
 
 sub new {
     my ( $pkg, @params ) = @_;
@@ -680,11 +680,20 @@ None known.
 =head1 SEE ALSO
 
   Concerning the concepts of iterators using closures/anonymous subs: 
-  http://hop.perl.plover.com/
+  L<http://hop.perl.plover.com/>
 
 =head1 AUTHOR
 
   Martin Busik <martin.busik@busik.de>
+
+=head1 COPYRIGHT and LICENSE
+
+Copyright (c) 2006 by Martin Busik.  All rights reserved.
+
+This program is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself.
+
+See L<http://www.perl.com/perl/misc/Artistic.html>
 
 =cut
 
